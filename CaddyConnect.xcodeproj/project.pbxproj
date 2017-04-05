@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5352EAD54117B3EA201BC1F0 /* Pods_CaddyConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021FF8AF2D97DC338D9DBDCD /* Pods_CaddyConnectUITests.framework */; };
+		7D2BA9DDA113D5BA4DA59DFD /* Pods_CaddyConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70857E25A1B0BEBF16BBF3D /* Pods_CaddyConnectTests.framework */; };
+		900FE8E71E93DCE100509D6D /* ManageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FE8E61E93DCE100509D6D /* ManageTableViewController.swift */; };
+		9011488D1E8FD52800B3251E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9011488C1E8FD52800B3251E /* libz.tbd */; };
+		904619001E9091E700F4497C /* FindCaddyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904618FF1E9091E700F4497C /* FindCaddyViewController.swift */; };
+		904619061E91337F00F4497C /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904619051E91337F00F4497C /* LocationSearchTable.swift */; };
+		904619081E91605400F4497C /* SetTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904619071E91605400F4497C /* SetTimeViewController.swift */; };
+		90AD760F1E901C11005B09E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90AD760E1E901C11005B09E7 /* GoogleService-Info.plist */; };
+		90AD76131E901CB6005B09E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD76121E901CB6005B09E7 /* LoginViewController.swift */; };
+		90AD76221E901FBE005B09E7 /* CaddyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD76211E901FBE005B09E7 /* CaddyViewController.swift */; };
+		90AD76241E902329005B09E7 /* CaddyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD76231E902329005B09E7 /* CaddyHandler.swift */; };
+		90AD76271E9026F2005B09E7 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD76261E9026F2005B09E7 /* DBProvider.swift */; };
+		90AD76291E902712005B09E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD76281E902712005B09E7 /* Constants.swift */; };
 		90D491721E8FCEF6000CDF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D491711E8FCEF6000CDF2B /* AppDelegate.swift */; };
 		90D491741E8FCEF6000CDF2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D491731E8FCEF6000CDF2B /* ViewController.swift */; };
 		90D491771E8FCEF6000CDF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D491751E8FCEF6000CDF2B /* Main.storyboard */; };
@@ -14,6 +27,16 @@
 		90D4917C1E8FCEF6000CDF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D4917A1E8FCEF6000CDF2B /* LaunchScreen.storyboard */; };
 		90D491871E8FCEF6000CDF2B /* CaddyConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D491861E8FCEF6000CDF2B /* CaddyConnectTests.swift */; };
 		90D491921E8FCEF6000CDF2B /* CaddyConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D491911E8FCEF6000CDF2B /* CaddyConnectUITests.swift */; };
+		90D491A81E8FCF59000CDF2B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A01E8FCF59000CDF2B /* AudioToolbox.framework */; };
+		90D491A91E8FCF59000CDF2B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A11E8FCF59000CDF2B /* CFNetwork.framework */; };
+		90D491AA1E8FCF59000CDF2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A21E8FCF59000CDF2B /* CoreGraphics.framework */; };
+		90D491AB1E8FCF59000CDF2B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A31E8FCF59000CDF2B /* CoreLocation.framework */; };
+		90D491AC1E8FCF59000CDF2B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A41E8FCF59000CDF2B /* QuartzCore.framework */; };
+		90D491AD1E8FCF59000CDF2B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A51E8FCF59000CDF2B /* Security.framework */; };
+		90D491AE1E8FCF59000CDF2B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A61E8FCF59000CDF2B /* StoreKit.framework */; };
+		90D491AF1E8FCF59000CDF2B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491A71E8FCF59000CDF2B /* SystemConfiguration.framework */; };
+		90D491B31E8FCF79000CDF2B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D491B21E8FCF79000CDF2B /* libsqlite3.tbd */; };
+		F6FDAD6174444F7BF506AD72 /* Pods_CaddyConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A90593756DC76162552DD90 /* Pods_CaddyConnect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011B4AB43704C6EDA252F706 /* Pods-CaddyConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddyConnectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaddyConnectTests/Pods-CaddyConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		021FF8AF2D97DC338D9DBDCD /* Pods_CaddyConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaddyConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0436114F71101007F5A8C8C9 /* Pods-CaddyConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddyConnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaddyConnect/Pods-CaddyConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		0A90593756DC76162552DD90 /* Pods_CaddyConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaddyConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BA82EAA83895C7C5925DDB /* Pods-CaddyConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddyConnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaddyConnect/Pods-CaddyConnect.release.xcconfig"; sourceTree = "<group>"; };
+		363FA877DD1A5DE6BB47DBDB /* Pods-CaddyConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddyConnectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaddyConnectUITests/Pods-CaddyConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79D2D995E6A0BC93D28D34AD /* Pods-CaddyConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddyConnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaddyConnectTests/Pods-CaddyConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		900FE8E61E93DCE100509D6D /* ManageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageTableViewController.swift; sourceTree = "<group>"; };
+		9011488C1E8FD52800B3251E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		904618FE1E902EE000F4497C /* CaddyConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaddyConnect.entitlements; sourceTree = "<group>"; };
+		904618FF1E9091E700F4497C /* FindCaddyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCaddyViewController.swift; sourceTree = "<group>"; };
+		904619051E91337F00F4497C /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		904619071E91605400F4497C /* SetTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTimeViewController.swift; sourceTree = "<group>"; };
+		90AD760E1E901C11005B09E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90AD76121E901CB6005B09E7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		90AD76211E901FBE005B09E7 /* CaddyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaddyViewController.swift; sourceTree = "<group>"; };
+		90AD76231E902329005B09E7 /* CaddyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaddyHandler.swift; sourceTree = "<group>"; };
+		90AD76261E9026F2005B09E7 /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		90AD76281E902712005B09E7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		90D4916E1E8FCEF6000CDF2B /* CaddyConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaddyConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D491711E8FCEF6000CDF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D491731E8FCEF6000CDF2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +89,18 @@
 		90D4918D1E8FCEF6000CDF2B /* CaddyConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaddyConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D491911E8FCEF6000CDF2B /* CaddyConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddyConnectUITests.swift; sourceTree = "<group>"; };
 		90D491931E8FCEF6000CDF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D491A01E8FCF59000CDF2B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		90D491A11E8FCF59000CDF2B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		90D491A21E8FCF59000CDF2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90D491A31E8FCF59000CDF2B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		90D491A41E8FCF59000CDF2B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		90D491A51E8FCF59000CDF2B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		90D491A61E8FCF59000CDF2B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		90D491A71E8FCF59000CDF2B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		90D491B01E8FCF6D000CDF2B /* libsp.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsp.tbd; path = usr/lib/libsp.tbd; sourceTree = SDKROOT; };
+		90D491B21E8FCF79000CDF2B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D70857E25A1B0BEBF16BBF3D /* Pods_CaddyConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaddyConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51A7313508EC342EB2EA5EB /* Pods-CaddyConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaddyConnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaddyConnectUITests/Pods-CaddyConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9011488D1E8FD52800B3251E /* libz.tbd in Frameworks */,
+				90D491B31E8FCF79000CDF2B /* libsqlite3.tbd in Frameworks */,
+				90D491A81E8FCF59000CDF2B /* AudioToolbox.framework in Frameworks */,
+				90D491A91E8FCF59000CDF2B /* CFNetwork.framework in Frameworks */,
+				90D491AA1E8FCF59000CDF2B /* CoreGraphics.framework in Frameworks */,
+				90D491AB1E8FCF59000CDF2B /* CoreLocation.framework in Frameworks */,
+				90D491AC1E8FCF59000CDF2B /* QuartzCore.framework in Frameworks */,
+				90D491AD1E8FCF59000CDF2B /* Security.framework in Frameworks */,
+				90D491AE1E8FCF59000CDF2B /* StoreKit.framework in Frameworks */,
+				90D491AF1E8FCF59000CDF2B /* SystemConfiguration.framework in Frameworks */,
+				F6FDAD6174444F7BF506AD72 /* Pods_CaddyConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2BA9DDA113D5BA4DA59DFD /* Pods_CaddyConnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +134,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5352EAD54117B3EA201BC1F0 /* Pods_CaddyConnectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		524F7215CF50FB622973D275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0436114F71101007F5A8C8C9 /* Pods-CaddyConnect.debug.xcconfig */,
+				19BA82EAA83895C7C5925DDB /* Pods-CaddyConnect.release.xcconfig */,
+				79D2D995E6A0BC93D28D34AD /* Pods-CaddyConnectTests.debug.xcconfig */,
+				011B4AB43704C6EDA252F706 /* Pods-CaddyConnectTests.release.xcconfig */,
+				363FA877DD1A5DE6BB47DBDB /* Pods-CaddyConnectUITests.debug.xcconfig */,
+				F51A7313508EC342EB2EA5EB /* Pods-CaddyConnectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90AD76141E901CBA005B09E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90D491731E8FCEF6000CDF2B /* ViewController.swift */,
+				90AD76211E901FBE005B09E7 /* CaddyViewController.swift */,
+				904618FF1E9091E700F4497C /* FindCaddyViewController.swift */,
+				900FE8E61E93DCE100509D6D /* ManageTableViewController.swift */,
+				90AD76121E901CB6005B09E7 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		90AD76251E9026DE005B09E7 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				90AD76231E902329005B09E7 /* CaddyHandler.swift */,
+				90AD76261E9026F2005B09E7 /* DBProvider.swift */,
+				90AD76281E902712005B09E7 /* Constants.swift */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
 		90D491651E8FCEF5000CDF2B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +183,8 @@
 				90D491851E8FCEF6000CDF2B /* CaddyConnectTests */,
 				90D491901E8FCEF6000CDF2B /* CaddyConnectUITests */,
 				90D4916F1E8FCEF6000CDF2B /* Products */,
+				90D4919F1E8FCF59000CDF2B /* Frameworks */,
+				524F7215CF50FB622973D275 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +201,17 @@
 		90D491701E8FCEF6000CDF2B /* CaddyConnect */ = {
 			isa = PBXGroup;
 			children = (
+				904618FE1E902EE000F4497C /* CaddyConnect.entitlements */,
+				90AD76251E9026DE005B09E7 /* Plugins */,
+				90AD76141E901CBA005B09E7 /* Controllers */,
 				90D491711E8FCEF6000CDF2B /* AppDelegate.swift */,
-				90D491731E8FCEF6000CDF2B /* ViewController.swift */,
 				90D491751E8FCEF6000CDF2B /* Main.storyboard */,
+				904619071E91605400F4497C /* SetTimeViewController.swift */,
 				90D491781E8FCEF6000CDF2B /* Assets.xcassets */,
 				90D4917A1E8FCEF6000CDF2B /* LaunchScreen.storyboard */,
+				90AD760E1E901C11005B09E7 /* GoogleService-Info.plist */,
 				90D4917D1E8FCEF6000CDF2B /* Info.plist */,
+				904619051E91337F00F4497C /* LocationSearchTable.swift */,
 			);
 			path = CaddyConnect;
 			sourceTree = "<group>";
@@ -125,6 +234,27 @@
 			path = CaddyConnectUITests;
 			sourceTree = "<group>";
 		};
+		90D4919F1E8FCF59000CDF2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9011488C1E8FD52800B3251E /* libz.tbd */,
+				90D491B21E8FCF79000CDF2B /* libsqlite3.tbd */,
+				90D491B01E8FCF6D000CDF2B /* libsp.tbd */,
+				90D491A01E8FCF59000CDF2B /* AudioToolbox.framework */,
+				90D491A11E8FCF59000CDF2B /* CFNetwork.framework */,
+				90D491A21E8FCF59000CDF2B /* CoreGraphics.framework */,
+				90D491A31E8FCF59000CDF2B /* CoreLocation.framework */,
+				90D491A41E8FCF59000CDF2B /* QuartzCore.framework */,
+				90D491A51E8FCF59000CDF2B /* Security.framework */,
+				90D491A61E8FCF59000CDF2B /* StoreKit.framework */,
+				90D491A71E8FCF59000CDF2B /* SystemConfiguration.framework */,
+				0A90593756DC76162552DD90 /* Pods_CaddyConnect.framework */,
+				D70857E25A1B0BEBF16BBF3D /* Pods_CaddyConnectTests.framework */,
+				021FF8AF2D97DC338D9DBDCD /* Pods_CaddyConnectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90D491961E8FCEF6000CDF2B /* Build configuration list for PBXNativeTarget "CaddyConnect" */;
 			buildPhases = (
+				982A41D6199698223FC65233 /* [CP] Check Pods Manifest.lock */,
 				90D4916A1E8FCEF5000CDF2B /* Sources */,
 				90D4916B1E8FCEF5000CDF2B /* Frameworks */,
 				90D4916C1E8FCEF5000CDF2B /* Resources */,
+				C71C9F701ED49DB39CF51FEB /* [CP] Embed Pods Frameworks */,
+				AA9460058BDAAC36559468AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90D491991E8FCEF6000CDF2B /* Build configuration list for PBXNativeTarget "CaddyConnectTests" */;
 			buildPhases = (
+				C85BF2AE50F71744C75261CB /* [CP] Check Pods Manifest.lock */,
 				90D4917E1E8FCEF6000CDF2B /* Sources */,
 				90D4917F1E8FCEF6000CDF2B /* Frameworks */,
 				90D491801E8FCEF6000CDF2B /* Resources */,
+				D4F6804DA24A710D0BE3D33C /* [CP] Embed Pods Frameworks */,
+				065B16669A13DA11A74334DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90D4919C1E8FCEF6000CDF2B /* Build configuration list for PBXNativeTarget "CaddyConnectUITests" */;
 			buildPhases = (
+				72D31C7FB5E64EB87E16A687 /* [CP] Check Pods Manifest.lock */,
 				90D491891E8FCEF6000CDF2B /* Sources */,
 				90D4918A1E8FCEF6000CDF2B /* Frameworks */,
 				90D4918B1E8FCEF6000CDF2B /* Resources */,
+				24CF665691A281939666D351 /* [CP] Embed Pods Frameworks */,
+				6CD3180CBBE13F848C5D1BFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +334,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8HRJV76B96;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					90D491811E8FCEF6000CDF2B = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -236,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D4917C1E8FCEF6000CDF2B /* LaunchScreen.storyboard in Resources */,
+				90AD760F1E901C11005B09E7 /* GoogleService-Info.plist in Resources */,
 				90D491791E8FCEF6000CDF2B /* Assets.xcassets in Resources */,
 				90D491771E8FCEF6000CDF2B /* Main.storyboard in Resources */,
 			);
@@ -257,13 +402,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		065B16669A13DA11A74334DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaddyConnectTests/Pods-CaddyConnectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24CF665691A281939666D351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaddyConnectUITests/Pods-CaddyConnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD3180CBBE13F848C5D1BFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaddyConnectUITests/Pods-CaddyConnectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D31C7FB5E64EB87E16A687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		982A41D6199698223FC65233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9460058BDAAC36559468AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaddyConnect/Pods-CaddyConnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71C9F701ED49DB39CF51FEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaddyConnect/Pods-CaddyConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85BF2AE50F71744C75261CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F6804DA24A710D0BE3D33C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaddyConnectTests/Pods-CaddyConnectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90D4916A1E8FCEF5000CDF2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904619081E91605400F4497C /* SetTimeViewController.swift in Sources */,
+				90AD76221E901FBE005B09E7 /* CaddyViewController.swift in Sources */,
+				90AD76131E901CB6005B09E7 /* LoginViewController.swift in Sources */,
 				90D491741E8FCEF6000CDF2B /* ViewController.swift in Sources */,
+				904619061E91337F00F4497C /* LocationSearchTable.swift in Sources */,
+				90AD76241E902329005B09E7 /* CaddyHandler.swift in Sources */,
+				90AD76291E902712005B09E7 /* Constants.swift in Sources */,
+				904619001E9091E700F4497C /* FindCaddyViewController.swift in Sources */,
+				90AD76271E9026F2005B09E7 /* DBProvider.swift in Sources */,
 				90D491721E8FCEF6000CDF2B /* AppDelegate.swift in Sources */,
+				900FE8E71E93DCE100509D6D /* ManageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +703,10 @@
 		};
 		90D491971E8FCEF6000CDF2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0436114F71101007F5A8C8C9 /* Pods-CaddyConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CaddyConnect/CaddyConnect.entitlements;
 				DEVELOPMENT_TEAM = 8HRJV76B96;
 				INFOPLIST_FILE = CaddyConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -424,8 +718,10 @@
 		};
 		90D491981E8FCEF6000CDF2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BA82EAA83895C7C5925DDB /* Pods-CaddyConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CaddyConnect/CaddyConnect.entitlements;
 				DEVELOPMENT_TEAM = 8HRJV76B96;
 				INFOPLIST_FILE = CaddyConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +733,7 @@
 		};
 		90D4919A1E8FCEF6000CDF2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D2D995E6A0BC93D28D34AD /* Pods-CaddyConnectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +749,7 @@
 		};
 		90D4919B1E8FCEF6000CDF2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011B4AB43704C6EDA252F706 /* Pods-CaddyConnectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +765,7 @@
 		};
 		90D4919D1E8FCEF6000CDF2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363FA877DD1A5DE6BB47DBDB /* Pods-CaddyConnectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8HRJV76B96;
@@ -481,6 +780,7 @@
 		};
 		90D4919E1E8FCEF6000CDF2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51A7313508EC342EB2EA5EB /* Pods-CaddyConnectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8HRJV76B96;
@@ -512,6 +812,7 @@
 				90D491981E8FCEF6000CDF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D491991E8FCEF6000CDF2B /* Build configuration list for PBXNativeTarget "CaddyConnectTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +821,7 @@
 				90D4919B1E8FCEF6000CDF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D4919C1E8FCEF6000CDF2B /* Build configuration list for PBXNativeTarget "CaddyConnectUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +830,7 @@
 				90D4919E1E8FCEF6000CDF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
